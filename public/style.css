@@ -1,0 +1,24 @@
+body{
+  background-image: url('16.jpg');
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  position: absolute;
+  left: 10%;
+  padding: 150px 100px;
+  background-color: solid rgb(216, 40, 40);
+}
+.modal-body{
+  background-color: rgb(243, 128, 52);
+}
+.col-6{
+  background-color: rgb(61, 9, 250);
+}
+.edit{
+  background-image: url('abc.jpg');
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}

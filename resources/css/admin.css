@@ -1,0 +1,87 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+*{
+    text-decoration: none;
+}
+.abu-link:hover {
+    background-color:gray;
+}
+
+.abu-link1 {
+    text-align: right;
+    font-size: 13px;
+}
+
+
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 16px;
+    right: 3px;
+    font-size: 90px;
+    
+}
+
+.card
+{
+    background-color:#FF4848;
+    font-size: 20px;
+}
+
+.card2
+{
+    background-color:#3a04ff;
+    font-size: 20px;
+}
+.card-title{
+    font-size: 17px;
+
+}
+=======
+=======
+>>>>>>> 70e96a897c31e390f43cc37fdae3bf739da39ae9
+*{
+    text-decoration: none;
+}
+.abu-link:hover {
+    background-color:gray;
+}
+
+.abu-link1 {
+    text-align: right;
+    font-size: 13px;
+}
+
+
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 16px;
+    right: 3px;
+    font-size: 90px;
+    
+}
+
+.card
+{
+    background-color:#FF4848;
+    font-size: 20px;
+}
+
+.card2
+{
+    background-color:#3a04ff;
+    font-size: 20px;
+}
+.card-title{
+    font-size: 17px;
+
+}
+table{
+    border: 2px solid black;
+<<<<<<< HEAD
+}
+>>>>>>> 868dde4 (kirim)
+=======
+}
+>>>>>>> 70e96a897c31e390f43cc37fdae3bf739da39ae9

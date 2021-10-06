@@ -1,0 +1,296 @@
+<!-- 
+ -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>Laporan Bulanan</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+    <style>
+      .abu-link:hover {
+    background-color:gray;
+}
+      .how1:hover{
+        background-color:gray;
+      }
+      a {text-decoration: none;
+      }
+
+      .side::-webkit-scrollbar{
+        width: 10px;
+      }
+
+      .side::-webkit-scrollbar-track{
+        background: rgba(255,255,255,0.1);
+      }
+
+      .side::-webkit-scrollbar-thumb{
+        background: whitesmoke;
+        border-radius: 10px;
+      }
+      .side{
+        box-shadow: 0px 0px 10px -2px black;
+      }
+      .select{
+        padding: 8px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+      }
+     
+
+      
+    </style>
+    <script>
+	
+        $(function () {
+          $('[data-toggle="debet"]').tooltip();
+          $('[data-toggle="kredit"]').tooltip();
+        });
+      
+</script>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light  bg-primary fixed-top ">
+  <div class="container-fluid ">
+    <a class="navbar-brand text-white" href="#"> SELAMAT DATANG ADMIN | <b>PEMBUKUAN FOFIMA</b></a>
+    <a class="navbar-brand text-white">Dionisius Setya Hermawan</a>
+    </div>
+  </div>
+</nav>
+<section id="dashboard">
+<div class="row no-gutters mt-5" >
+    <div class="col-md-2 bg-dark mt-2 pr-3 pt-4 side" style="position:fixed; z-index:4; height:calc(100% - 1rem); overflow-y : auto; bottom: 0px; top:20px">
+<ul class="nav flex-column ml-3 mb-5" >
+  <li class="nav-item">
+      <i class="fas fa-tachometer-alt me-2 bg-white"></i>
+      
+      <a class="nav-link active text-light abu-link" aria-current="page" href="dashboard" ><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <i class="bi bi-speedometer2 mr-2"></i>  DASHBOARD</a><hr class="bg-secondary">
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light  abu-link" href="BukuBesar"><i class="bi bi-book mr-2"></i>  BUKU BESAR</a><hr class="bg-secondary">
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light  abu-link" href="neracaLajur"><i class="bi bi-file-earmark-bar-graph mr-2"></i>  NERACA LAJUR</a><hr class="bg-secondary">
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light  disable"><i class="bi bi-file-text mr-2"></i>  LAPORAN :</a><hr class="bg-secondary">
+  </li>
+  <li class="nav-item">
+    <a class=" how1 nav-link   text-light  abu-link1  " href="#" style="margin-left:30px; font-size: 13px;"><i class="bi bi-graph-down mr-2"></i>  SURPLUS DEFISIT BULANAN</a><hr class="bg-secondary">
+  </li>
+  <li class="nav-item">
+    <a class="how1 nav-link  text-light  abu-link1" href="#"style="margin-left:30px; font-size: 13px; "><i class="bi bi-journal-check mr-2"></i>  NERACA TAHUNAN </a><hr class="bg-secondary">
+  </li>
+  <li class="nav-item">
+   <a class="how1 nav-link  text-light  abu-link1" href="http://127.0.0.1:8000/logout"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="bi bi-box-arrow-left mr-2"></i>  LOGOUT</a>
+                                        Logout
+                                    </a>
+
+                                    <form id="logout-form" action="http://127.0.0.1:8000/logout" method="POST" style="display: none;">
+                                        <input type="hidden" name="_token" value="R52oY9tLrtthXGV0CeMSotHs5GAxs5jBpn9RYjVp">                                    </form>
+  </li>
+</ul>
+</div>
+
+<div class="col-md-10 p-6 pt-3" style="margin-left:17vw;">
+<h3><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <i class="bi bi bi-graph-down mr-2"></i>Laporan Bulanan</h3><hr>
+   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+            h2,h3,h4,h5{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            table{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            th{
+                size: 1px;
+                padding: 10px;
+            }
+            td{
+                padding: 10px;
+            }
+        </style>
+
+        <center>
+        <h2>YAYASAN BAGIMU NEGERIKU SEMARANG</h2>
+
+        <h4>Laporan Aktivitas Keuangan (Surplus/Defisit) <br><br></h4> 
+        <h5>BULAN: bulan<h5>
+
+        <table class='tbl table-bordered' width="800px">
+            <tr>
+                <th>
+                    No
+                </th>
+                <th>
+                    Keterangan
+                </th>
+                <th>
+                    Nominal
+                </th>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>
+                    PEMASUKAN
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    Donatur
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    SMK Bagimu Negeriku:
+                    <ul>
+                        <li>Uang Pendaftaran</li>
+                        <li>Uang SPI</li>
+                        <li>Uang SR</li>
+                        <li>Uang Asrama</li>
+                        <li>Lain-lain</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    Penerimaan Lain-lain
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>
+                    Dana BOS
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    
+                        <center>TOTAL PEMASUKAN</center>
+                    
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>II</td>
+                <td>
+                    PENGELUARAN:
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    SMK Bagimu Negeriku
+                    <ul>
+                        <li>Biaya Pegawai</li>
+                        <li>Biaya Pemeliharaan</li>
+                        <li>Biaya adm & umum</li>
+                        <li>Biaya Pengadaan bahan dan lain-lain</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                   Asrama
+                    <ul>
+                        <li>Biaya Pegawai</li>
+                        <li>Kebutuhan dapur</li>
+                        <li>Kebutuhan dan maintenance rumah tangga dll</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    Yayasan
+                    <ul>
+                        <li>Biaya Pegawai</li>
+                        <li>Biaya adm dan lain-lain</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    Total Pengeluaran
+                <td></td>
+            </tr>
+            <tr>
+                <td>III</td>
+                <td>Surplus(Defisit) Sebelum Penyusutan</td>
+                <td></td>
+            </tr>
+            <tr align="center">
+                <td>IV</td>
+                <td>Penyusutan</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td>Surplus(Defisit) Sesudah Penyusutan</td>
+                <td></td>
+            </tr>
+            <tr>
+            <td>VI</td>
+                <td>Pendataan dan Beban Lain-lain
+                    Pendataan lain-lain (Bunga bank)<br>
+                    Beban lain-lain(Bunga Bank) <br>
+                    Surplus (Defisit) lain-lain
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>VII</td>
+                <td>
+                    Surplus (defisit) Aktivitas Keuangan
+                </td>
+                <td></td>
+            </tr>
+        </table><br><br>
+        <button class="btn btn-success" href="">Cetak</button>
+        </center>
+</body>
+</html>
+        
+<!-- </div>
+</div>
+
+
+    <script type="text/javascript" src="admin.js"></script>
+  </body>
+</html>
