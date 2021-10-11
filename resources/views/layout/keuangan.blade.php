@@ -7,7 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
     <title>@yield('title')</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -113,7 +113,7 @@
   </head>
   <body>
   <nav class="navbar navbar-expand-lg  fixed-top " style="background-color: #13161c; box-shadow: 0px 0px 10px -3px black; z-index: 1; width: calc(85%); left: 15.5%">
-  <div class="container-fluid " style="background-color: ">
+  <div class="container-fluid " >
     <a href="" class='sidebaricon'><i class="bi bi-layout-sidebar"></i></a>
     
     <a class="navbar-brand text-white" href="#"> SELAMAT DATANG {{strtoupper(Auth::user()->roles[0]['name'])}} | <b>FOFIMA</b></a>
