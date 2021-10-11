@@ -5,19 +5,19 @@
     <div class="row text-white ">
 
 
-        <div class="card ml-5" style="  background-color:#FF0000; width: 17rem; margin-left: 12px; ">
-            <div class="card-body" style="">
+        <div class="card ml-5" style="  background-color:#FF0000; width: 15rem; margin-left: 12px; ">
+            <div class="card-body" >
               <div class="card-body-icon" style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
               <i class="bi bi-file-earmark-text"></i>
               </div>
               <h5 class="card-title text-white  " style="font-size: 15px;">PEMASUKAN HARI INI</h5>
               <div class="fs-3">Rp 5 jt </div>
-              <a href=”#” style=”text-decoration:none;”>
+              <a href="#" style="text-decoration:none;">
               <p class="card-text text-white  fw-bold " ><br>Lihat Detail <i class = "fasfa-angle-double-right ml-2"></i></p></a>
            </div>
         </div>
 
-        <div class="card ml-5" style="  background-color:#04009A; width: 17rem; margin-left: 12px; ">
+        <div class="card ml-5" style="  background-color:#04009A; width: 15rem; margin-left: 12px; ">
             <div class="card-body" >
               <div class="card-body-icon"style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
               <i class="bi bi-file-bar-graph"></i>
@@ -29,7 +29,7 @@
            </div>
         </div>
 
-        <div class="card ml-5" style="  background-color:#FF7600; width: 17rem; margin-left: 12px; ">
+        <div class="card ml-5" style="  background-color:#FF7600; width: 15rem; margin-left: 12px; ">
             <div class="card-body">
               <div class="card-body-icon"style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
               <i class="bi bi-file-earmark-bar-graph"></i> 
@@ -41,7 +41,7 @@
            </div>
         </div>
 
-        <div class="card  ml-5" style=" background-color:#006400; width: 17rem; margin-left: 12px; ">
+        <div class="card  ml-5" style=" background-color:#006400; width: 15rem; margin-left: 12px; ">
             <div class="card-body" >
                <div class="card-body-icon"style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
                <i class="bi bi-bar-chart-line"></i>
@@ -56,8 +56,8 @@
     </div>
 
      <div class="row mt-3 text-white ">
-
-      <div class="card ml-5" style=" background-color:#FF4848; width: 17rem; margin-left: 12px; ">
+         
+      <div class="card ml-5" style=" background-color:#FF4848; width: 15rem; margin-left: 12px; ">
       <div class="card-body">
     <div class="card-body-icon"style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
     <i class="bi bi-file-earmark-text"></i>
@@ -68,18 +68,18 @@
     <p class="card-text text-white  fw-bold"><br>Lihat Detail <i class = "fasfa-angle-double-right ml-2"></i></p></a>
   </div>
 </div>
-      <div class="card ml-5" style=" background-color:#0F52BA; width: 17rem; margin-left: 12px; ">
+      <div class="card ml-5" style=" background-color:#0F52BA; width: 15rem; margin-left: 12px; ">
       <div class="card-body">
     <div class="card-body-icon"style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
     <i class="bi bi-file-bar-graph"></i>
     </div>
-    <h5 class="card-title text-white  "style="font-size: 15px;">PENGELUARAN MINGGU INI</h5>
+    <h5 class="card-title text-white  "style="font-size: 14px;">PENGELUARAN MINGGU INI</h5>
     <div class="fs-3">Rp 10 jt </div>
     <a href="#">
     <p class="card-text text-white  fw-bold"><br>Lihat Detail <i class = "fasfa-angle-double-right ml-2"></i></p></a>
   </div>
 </div>
-      <div class="card  ml-5" style=" background-color:#F7A440; width: 17rem; margin-left: 12px; ">
+      <div class="card  ml-5" style=" background-color:#F7A440; width: 15rem; margin-left: 12px; ">
   <div class="card-body">
     <div class="card-body-icon"style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
     <i class="bi bi-file-earmark-bar-graph"></i> 
@@ -90,91 +90,20 @@
     <p class="card-text text-white  fw-bold"><br>Lihat Detail <i class = "fasfa-angle-double-right ml-2"></i></p></a>
   </div>
 </div>
-      <div class="card  ml-5" style="  background-color:#55cd4c;width: 17rem; margin-left: 12px; ">
+      <div class="card  ml-5" style="  background-color:#55cd4c;width: 15rem; margin-left: 12px; ">
   <div class="card-body">
     <div class="card-body-icon"style=" position: absolute; z-index: 0;top: 16px; right: 3px;font-size: 90px;">
     <i class="bi bi-bar-chart-line"></i>
     </div>
-    <h5 class="card-title text-white "style="font-size: 15px;">PENGELUARAN TAHUN INI</h5>
+    <h5 class="card-title text-white "style="font-size: 14px;">PENGELUARAN TAHUN INI</h5>
     <div class="fs-3">Rp 250 jt </div>
     <a href="#" >
     <p class="card-text text-white  fw-bold"><br>Lihat Detail <i class = "fasfa-angle-double-right ml-2"></i></p></a>
   </div>
 </div>
   </div>
-
-  <div class="coba">
-  <div class="container" style="width: 60%;">
-        <canvas id="myChart"></canvas>
-    </div>
-    <script>
-        let myChart = document.getElementById('myChart').getContext('2d');
-        //Global Options
-        Chart.defaults.global.defaultFontFamily='Lato';
-        Chart.defaults.global.defaultFontSize= 18;
-        Chart.defaults.global.defaultFontColor='#777';
-
-        let massPopChart = new Chart(myChart,{
-            type:'bar',//bar,horizontalbar,pie,line,doughnut,radar,polarArea
-            data:{
-                labels:['1 Tahun','6 Bulan','1 Bulan','2 Minggu','1 Minggu','Hari ini'],
-                datasets:[{
-                    label:'Pengeluaran',
-                    data:[
-                        617594,
-                        451045,
-                        273060,
-                        166519,
-                        125179,
-                        75065
-                    ],
-                   // backgroundColor:'green',
-                  backgroundColor:[
-                       'rgba(255,99,132,0.6)',
-                       'rgba(54,162,235,0.6)',
-                       'rgba(255,206,86,0.6)',
-                       'rgba(75,192,192,0.6)',
-                       'rgba(153,102,255,0.6)',
-                       'rgba(255,159,64,0.6)',
-                       'rgba(255,99,132,0.6)'
-                   ],
-                   borderWidth:1,
-                   borderColor:'#777',
-                   hoverBorderWidth:3,
-                   hoverBorderColor:'#000'
-                }]
-            },
-            options:{
-                title:{
-                    display:true,
-                    text:'Grafik Tahunan SMK Bagimu Negeriku',
-                    fontSize:25
-                },
-                legend:{
-                    display:true,
-                    position:'right',
-                    labels:{
-                        fontColor:'#000'
-                    }
-                },
-                layout:{
-                    padding:{
-                        left:50,
-                        right:0,
-                        bottom:0,
-                        top:0
-                    }
-                },
-                tooltips:{
-                    enabled:true
-                }
-            }
-        });
-    </script>
-    
-  
-  <div class="container" style="width: 39%; ">
-    <div class="card">
+  <div class="container col-sm-4 col-md-7 col-lg-4 mt-5" style="margin-left: -20px; ">
+    <div class="card"style="width:322%; margin-bottom:70px; ">
         <h3 class="card-header" id="monthAndYear"></h3>
         <table class="table table-bordered table-responsive-sm" id="calendar">
             <thead>
@@ -193,9 +122,16 @@
 
             </tbody>
         </table>
-        <form class="">
-            <label class="lead" for="month"> </label>
-            <select class="form-control" name="month" id="month" onchange="jump()">
+
+        <div class="form-inline">
+
+            <button class="btn btn-outline-primary col-sm-5" id="previous" onclick="previous()">Previous</button>
+            <button class="btn btn-outline-primary col-sm-5" id="next" onclick="next()">Next</button>
+        </div><br>
+
+        <form class="form-inline">
+            <label class="lead mr-2 ml-2" for="month">Move To: </label>
+            <select class="form-control col-sm-4" name="month" id="month" onchange="jump()">
                 <option value=0>Jan</option>
                 <option value=1>Feb</option>
                 <option value=2>Mar</option>
@@ -255,8 +191,19 @@
             <option value=2030>2030</option>
         </select></form>
     </div>
-</div>
-<!--<button name="jump" onclick="jump()">Go</button>-->
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
 <script >
     let today = new Date();
 let currentMonth = today.getMonth();
@@ -335,5 +282,77 @@ function showCalendar(month, year) {
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
 
-        </div>  
+        </div> 
+
+        
+  <div class="coba">
+  <div class="container" style="width: 100%; margin-left:-60px;">
+        <canvas id="myChart"></canvas>
+    </div>
+    <script>
+        let myChart = document.getElementById('myChart').getContext('2d');
+        //Global Options
+        Chart.defaults.global.defaultFontFamily='Lato';
+        Chart.defaults.global.defaultFontSize= 18;
+        Chart.defaults.global.defaultFontColor='#777';
+
+        let massPopChart = new Chart(myChart,{
+            type:'bar',//bar,horizontalbar,pie,line,doughnut,radar,polarArea
+            data:{
+                labels:['1 Tahun','6 Bulan','1 Bulan','2 Minggu','1 Minggu','Hari ini'],
+                datasets:[{
+                    label:'Pengeluaran',
+                    data:[
+                        617594,
+                        451045,
+                        273060,
+                        166519,
+                        125179,
+                        75065
+                    ],
+                   // backgroundColor:'green',
+                  backgroundColor:[
+                       'rgba(255,99,132,0.6)',
+                       'rgba(54,162,235,0.6)',
+                       'rgba(255,206,86,0.6)',
+                       'rgba(75,192,192,0.6)',
+                       'rgba(153,102,255,0.6)',
+                       'rgba(255,159,64,0.6)',
+                       'rgba(255,99,132,0.6)'
+                   ],
+                   borderWidth:1,
+                   borderColor:'#777',
+                   hoverBorderWidth:3,
+                   hoverBorderColor:'#000'
+                }]
+            },
+            options:{
+                title:{
+                    display:true,
+                    text:'Grafik Tahunan SMK Bagimu Negeriku',
+                    fontSize:25
+                },
+                legend:{
+                    display:true,
+                    position:'right',
+                    labels:{
+                        fontColor:'#000'
+                    }
+                },
+                layout:{
+                    padding:{
+                        left:50,
+                        right:0,
+                        bottom:0,
+                        top:0
+                    }
+                },
+                tooltips:{
+                    enabled:true
+                }
+            }
+        });
+    </script>
+    
+    </div>
       @endsection
