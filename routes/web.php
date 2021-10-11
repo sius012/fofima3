@@ -19,12 +19,9 @@ use App\Http\Controllers\TransaksiController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/transaksi',  'TransaksiController@index');
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
 Route::post('/bukubesar/transaksi', 'TransaksiController@prosestransaksi');
 Route::get('/trans', 'BukuBesarController@index')->name("transaksi");
 Route::match(['get','post'],'/BukuBesar/cari', 'BukuBesarController@tampilkan');
@@ -38,7 +35,7 @@ Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/dashboard', function() {
-    return view("dashboard");
+    return view('dashboard');
 })->name('dashboard');
 Route::get('bukubesar/edit', 'TransaksiController@edit');
 Route::resource('transaksi', 'TransaksiController');
@@ -72,4 +69,4 @@ Route::middleware('role:yayasan')->post('/admin/penyusutan/tambah', 'SaldoDanPen
 Route::get('/penyusutan/{id}', [SaldoDanPenyusutanController::class, 'edit'])->name('penyu.edit');
 Route::post('/admin/penyusutan/edit/terapkan', [SaldoDanPenyusutanController::class, 'update'])->name('penyu.update');
 Route::get('/admin/penyusutan/hapus/{id}', [SaldoDanPenyusutanController::class, 'destroy'])->name('penyu.destroy');
-Route::get('/kirim-email', 'EmailController@index');
+

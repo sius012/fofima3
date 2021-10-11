@@ -47,12 +47,19 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+            
+                <div class="card-header">
+                    {{ __('Login') }}
+                </div>
 
                 <div class="card-body" >
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
-
+                        @if(session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right ">{{ __('E-Mail Address') }}</label>
 
@@ -94,7 +101,7 @@
                         </div>
                         @if (Route::has('password.request'))
                                     <a class="btn1 " href="{{ route('password.request') }}" style="text-decoration: none;font-size:15px;margin-left :400px;">
-                                        {{ __('Forgot Your Password?') }}
+                                        {{ __('Lupa Password Anda?') }}
                                     </a>
                                 @endif
 

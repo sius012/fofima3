@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Welcome</title>
+    <title>Fofima</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
@@ -306,7 +306,7 @@
         <div class="h1"><h1>SELAMAT DATANG DI FOFIMA</h1>
         <h3>CATAT LAPORAN KEUANGAN DENGAN MUDAH</h3>
         <button type="submit" class="btn" style="text-align: center;">
-            <a href="{{url('/dashboard')}}">{{ __('MULAI') }}</a>
+            <a href="{{url('/dashboard')}}" class="text-decoration-none">{{ __('MULAI') }}</a>
         </button>
     </div>
     </div>
